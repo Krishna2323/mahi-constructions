@@ -28,7 +28,7 @@ export default function Home() {
       </Head>
       <main className="min-h-screen">
         {/* HERO */}
-        <div className="flex items-center gap-[min(20vh,20vw)] border-b px-[min(6vh,6vw)] py-[min(5vh,5vw)] max-[980px]:flex-col">
+        <div className="flex items-center gap-[min(30vh,30vw)] border-b px-[min(6vh,6vw)] py-[min(5vh,5vw)] max-[980px]:flex-col max-[980px]:gap-[min(20vh,20vw)] max-[980px]:py-[min(10vh,10vw)]">
           <div className="mx-auto flex w-[min(45rem,100%)] flex-col gap-[min(2vh,2vw)] text-center max-[980px]:w-[min(40rem,100%)]">
             <Image
               src={"/logo/Logo_Without_Symbol.png"}
